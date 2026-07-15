@@ -1,6 +1,13 @@
 # Changelog
 
-## 1.2.1 — Unreleased
+## 1.2.2 — 2026-07-15
+
+- Point the MCP Registry website field at the live canonical MCP documentation
+  while the new marketing `/mcp` route remains held for owner approval.
+- Add a checksum-pinned GitHub OIDC workflow for immutable-tag MCP Registry
+  publication and post-publication verification.
+
+## 1.2.1 — 2026-07-15
 
 - Position the API, CLI, Python client, and MCP as global, citation-backed
   regulatory intelligence while retaining explicit pack selection.

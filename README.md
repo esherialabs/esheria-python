@@ -17,7 +17,7 @@ esheria-mcp --help
 esheria mcp serve --help
 ```
 
-Version `1.2.1` is the production/stable public release. The CLI, Python
+Version `1.2.2` is the production/stable public release. The CLI, Python
 client, and MCP software distributed in the `esheria` Python package are
 licensed under the Apache License 2.0. Hosted API/MCP access, regulatory data,
 service outputs, and Esheria trademarks are not licensed under Apache-2.0;

@@ -34,14 +34,14 @@
     "url": "https://github.com/esherialabs/esheria-python",
     "source": "github"
   },
-  "version": "1.2.1",
-  "websiteUrl": "https://esheria.ai/mcp",
+  "version": "1.2.2",
+  "websiteUrl": "https://docs.esheria.ai/agent-tools/mcp",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "esheria",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"

@@ -20,7 +20,7 @@ The API exposes the refined regulatory pack workflows:
   instances, and customer change impacts
 - export the published regulatory pack
 
-The sanitized discovery release generated on July 14, 2026 contains 69 current pack records across 27 jurisdiction labels: 60 `verified_published` packs and 9 metadata-only `not_ready` records. Catalog version: `2026-07-14-v1+sha256:16e6098c99594bd30fb9a6dbae57afbbb7f8bdf92d145961bdd43d295f94e280`. Query `GET /api/v1/domain-packs` for live discovery and treat the authenticated response as authoritative.
+The sanitized discovery release generated on July 15, 2026 contains 69 current pack records across 27 jurisdiction labels: 60 `verified_published` packs and 9 metadata-only `not_ready` records. Catalog version: `2026-07-15-v1+sha256:c5732893a6156d077166b60ea5016166ac5b178bb024162320d3a54e0ce745eb`. Query `GET /api/v1/domain-packs` for live discovery and treat the authenticated response as authoritative.
 
 The route surface is pack-oriented. In DB mode, `{pack_id}` is resolved against
 `regulatory_serving.domain_packs` and `regulatory_serving.facts`, so the same
