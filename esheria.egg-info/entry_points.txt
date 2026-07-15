@@ -1,3 +1,0 @@
-[console_scripts]
-esheria = api.cli.esheria:main
-esheria-mcp = api.mcp.esheria_mcp:main
