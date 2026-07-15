@@ -1,0 +1,23 @@
+Esheria CLI, Python client, and MCP tools
+Copyright 2026 Esheria, Inc.
+
+The Apache License, Version 2.0 applies to the software source code and
+packaging artifacts distributed in the public `esheria` Python package,
+including the corresponding CLI, Python client, and MCP implementation under:
+
+  api/cli/esheria/
+  api/clients/esheria_regulatory/
+  api/mcp/esheria_mcp/
+
+The Apache License does not grant access to, or rights in, Esheria's hosted
+API or MCP services; regulatory data, source materials, or platform content;
+customer content or hosted-service outputs; Esheria names, logos, or
+trademarks; or repository materials not included in the public package.
+
+Use of Esheria hosted services, data, and outputs is governed by the applicable
+customer agreement and the Esheria Terms of Service and Privacy Policy:
+
+  https://esheria.ai/terms
+  https://esheria.ai/privacy
+
+Third-party components remain subject to their respective licenses and notices.

@@ -1,0 +1,12 @@
+anyio<5.0,>=4.5
+httpcore<2.0,>=1.0.9
+httpx<1.0,>=0.28.1
+mcp<2.0,>=1.28.1
+pydantic<3.0,>=2.8
+prometheus-client<1.0,>=0.20
+PyYAML<7.0,>=6.0
+starlette<1.0,>=0.27
+uvicorn<1.0,>=0.30
+
+[dev]
+pytest<9.0,>=8.2

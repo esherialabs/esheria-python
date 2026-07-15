@@ -1,0 +1,85 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.esherialabs/esheria",
+  "title": "Esheria Regulatory Intelligence",
+  "description": "Citation-backed regulatory intelligence tools for explicit multi-jurisdiction packs",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentationUrl": "https://docs.esheria.ai/agent-tools/mcp",
+      "supportUrl": "https://esheria.ai/contact",
+      "privacyPolicyUrl": "https://esheria.ai/privacy",
+      "termsOfServiceUrl": "https://esheria.ai/terms",
+      "authentication": {
+        "hosted": [
+          "oauth",
+          "api_token"
+        ],
+        "local_stdio": [
+          "api_token"
+        ]
+      },
+      "toolCatalogs": {
+        "hostedOAuthReadOnly": 20,
+        "dataTokenReadLike": 29,
+        "operatorMaximum": 37
+      },
+      "disclosures": [
+        "Explicit pack selection is required.",
+        "Pack readiness, citations, versions, and limitations must be preserved.",
+        "Esheria provides regulatory intelligence, not legal advice."
+      ]
+    }
+  },
+  "repository": {
+    "url": "https://github.com/esherialabs/esheria-python",
+    "source": "github"
+  },
+  "version": "1.2.1",
+  "websiteUrl": "https://esheria.ai/mcp",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "esheria",
+      "version": "1.2.1",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        },
+        {
+          "type": "positional",
+          "value": "serve"
+        },
+        {
+          "type": "positional",
+          "value": "--stdio"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "name": "ESHERIA_API_BASE_URL",
+          "description": "Esheria API base URL",
+          "value": "https://api.esheria.ai"
+        },
+        {
+          "name": "ESHERIA_API_KEY",
+          "description": "Dashboard-created Esheria data token",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.esheria.ai/mcp"
+    }
+  ]
+}

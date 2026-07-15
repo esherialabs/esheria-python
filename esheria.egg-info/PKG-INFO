@@ -1,3 +1,44 @@
+Metadata-Version: 2.4
+Name: esheria
+Version: 1.2.1
+Summary: Global, citation-backed regulatory intelligence through API, CLI, Python, and MCP.
+Author: Esheria, Inc.
+License-Expression: Apache-2.0
+Project-URL: Homepage, https://esheria.ai
+Project-URL: Documentation, https://docs.esheria.ai/cli
+Project-URL: Source, https://github.com/esherialabs/esheria-python
+Project-URL: Issues, https://github.com/esherialabs/esheria-python/issues
+Project-URL: Changelog, https://docs.esheria.ai/changelog
+Project-URL: MCP Server, https://mcp.esheria.ai/mcp
+Project-URL: Support, https://esheria.ai/contact
+Project-URL: Terms of Service, https://esheria.ai/terms
+Project-URL: Privacy Policy, https://esheria.ai/privacy
+Keywords: compliance,legal-tech,mcp,regulatory-intelligence,regtech,python-cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Office/Business
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: anyio<5.0,>=4.5
+Requires-Dist: httpcore<2.0,>=1.0.9
+Requires-Dist: httpx<1.0,>=0.28.1
+Requires-Dist: mcp<2.0,>=1.28.1
+Requires-Dist: pydantic<3.0,>=2.8
+Requires-Dist: prometheus-client<1.0,>=0.20
+Requires-Dist: PyYAML<7.0,>=6.0
+Requires-Dist: starlette<1.0,>=0.27
+Requires-Dist: uvicorn<1.0,>=0.30
+Provides-Extra: dev
+Requires-Dist: pytest<9.0,>=8.2; extra == "dev"
+Dynamic: license-file
+
 # Esheria CLI And MCP
 
 Installable command-line and MCP tools for the Esheria Regulatory Pack API.

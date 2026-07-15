@@ -1,0 +1,18 @@
+include README.md
+include LICENSE
+include NOTICE
+include CHANGELOG.md
+include server.json
+include api/README.md
+include pyproject.toml
+
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude pipeline *
+recursive-exclude regulatory_data_model *
+recursive-exclude regulations *
+recursive-exclude nda-review-guide *
+
+global-exclude .DS_Store
+global-exclude *.py[cod]
+global-exclude __pycache__
