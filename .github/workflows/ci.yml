@@ -28,7 +28,7 @@ jobs:
       - name: Scan the public tree for secrets
         shell: bash
         run: |
-          detect-secrets scan --all-files --exclude-files 'RELEASE_PROVENANCE.json' > /tmp/detect-secrets.json
+          detect-secrets scan --all-files --exclude-files '(^|/)\.git/|RELEASE_PROVENANCE\.json$' > /tmp/detect-secrets.json
           python -c 'import json; data=json.load(open("/tmp/detect-secrets.json")); assert not data["results"], data["results"]'
       - name: Run package and MCP tests
         run: python -m pytest -q

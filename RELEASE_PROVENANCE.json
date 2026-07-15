@@ -1,6 +1,6 @@
 {
   "files": {
-    ".github/workflows/ci.yml": "sha256:7adbf0c2e815fee36cff96d7d77ff7b0a8d316dade6d30f1747a5bb0b0c10a4b",
+    ".github/workflows/ci.yml": "sha256:29e020e55684361a5d12bf9f6a06da9efad00bb2a1253822216f5ce8f0de3431",
     ".gitignore": "sha256:640345c7a845f0d45c098f2e74edc8dd08d3459d2dca38e3521821c6fda4d289",
     "CHANGELOG.md": "sha256:95bf12fd05c38058e48983564f21cc5cc83755c07afd5ddc361eb44e9ef7e087",
     "CODE_OF_CONDUCT.md": "sha256:c3f770a66c334278495f94f98ec8eeb1a1373187a7b4f44e46cc647f7fe0426a",
@@ -45,8 +45,8 @@
   "package_version": "1.2.1",
   "publishable": true,
   "schema_version": "1.0",
-  "source_commit": "d55fb1483fc239a6394e8030aa73e7a734a6be54",
-  "source_committed_at": "2026-07-15T11:20:50+03:00",
+  "source_commit": "0c72a8dda0b393229ae902ceaaa87d8ee237669e",
+  "source_committed_at": "2026-07-15T12:54:08+03:00",
   "source_tree_clean": true,
-  "tree_hash": "sha256:029f07a2aafc58aa0b1d2806d7a01a2425dd00f205d85a5f719ee6f65591a7d3"
+  "tree_hash": "sha256:86d89f22ad61e893aaa5d053722ed9634ce00c76fbe576894fe68a6627066592"
 }
